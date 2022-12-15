@@ -1,0 +1,46 @@
+header{
+    .header-top{
+
+        background-color: $maincolor;
+        color:$lightcolor;
+        padding:10px 0;
+        a{
+            color:$lightcolor;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+        .nav-social{
+          a{
+            &:hover{
+                color:red
+            }
+          }
+        }
+        .nav-contact{
+            i{
+                color:$primecolor;
+                margin-right: 10px;
+           
+            }
+        }
+        }
+       
+       
+        .header-bottom{
+            padding: 20px 0;
+
+           &-catagories{
+            ul {
+                li{
+                    text-transform: capitalize;
+                   margin-left: 15px;
+                    font-weight: 500;
+                    font-size: 20px;
+               
+                }
+            }
+           }
+
+          
+        }
+}
